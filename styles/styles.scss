@@ -1,0 +1,16 @@
+@import 'navbar';
+@import 'bodycont';
+@import 'footer';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homebody {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
