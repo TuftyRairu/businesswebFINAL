@@ -176,14 +176,41 @@
   display: block;
 }
 
-.bodycontent {
-  height: 86.5vh;
-  background-color: #A47E3B;
+.banner {
+  height: 80vh;
+  background-color: #BF9742;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner h1, .banner p, .banner h2 {
+  color: #291c05;
+}
+.banner .cent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.banner .cent h1 {
+  font-size: 4em;
+}
+.banner .cent h2 {
+  font-size: 3em;
+}
+.banner p {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.feedbacks {
+  height: 68vh;
+  background-color: #99722e;
 }
 
 .lbodycontent {
   height: 73vh;
-  background-color: #A47E3B;
+  background-color: #BF9742;
   display: flex;
   flex-direction: column;
 }
